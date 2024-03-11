@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.hero{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 300px;
+    
+
+}
+.dom {
+    width: 100px;
+    height: 250px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    background: rgba(92, 11, 11, 0.677);
+    border-radius: 50px;
+    transition: .8s;
+
+}
+.color2 {
+    width: 50px;
+    height: 50px;
+    background:rgb(104, 104, 14);
+    border-radius: 50px;
+    transition: .8s;
+
+}
+.color3 {
+    width: 50px;
+    height: 50px;
+    background: rgba(6, 69, 6, 0.747);
+    border-radius: 50px;
+    transition: .8s;
+
+}
+
+.bottom {
+    
+    width: 30px;
+    height: 350px;
+    background: black;
+}
+.bot {
+    clip-path: polygon(27% 0, 71% 0, 91% 100%, 9% 100%);
+    width: 100px;
+    height: 180px;
+    background: black;
+}
+.top {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    width: 500px;
+    height: 800px;
+    background:rgba(31, 31, 31, 0.851);
+    margin-top: -700px;
+    margin-left: 430px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.btn1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.btn1:hover {
+    background:rgba(242, 136, 55, 0.822) ;
+    transition: 0.5s;
+    border: 3px solid rgba(243, 239, 236, 0.959);
+    color: rgba(10, 226, 250, 0.977);
+
+}
+.btn2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.btn2:hover {
+    background: blueviolet ;
+    transition: 0.5s;
+    border: 3px solid rgba(24, 24, 24, 0.959);
+    color: rgb(10, 243, 243);
+
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top:-150px ;
+    gap: 30px;
+}
